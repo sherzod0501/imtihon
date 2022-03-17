@@ -1,0 +1,136 @@
+.main{
+    &__container{
+        width: 100%;
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        margin-top: 60px;
+    }
+    &__top{
+        display: flex;
+        width: 85%;
+        justify-content: space-between;
+        gap: 50px;
+        
+        &__img{
+            margin-right: 10px;
+        }
+
+        &__select {
+            border: none;
+        }
+
+        &__btns {
+            display: flex;
+            align-items: center;
+            text-align: right;
+            gap: 20px;
+            width: 300px;
+            &__none{
+                position: relative;
+                display: none;
+            }
+        }
+
+    }
+    &__btn {
+        display: flex;
+        background-color: #ffffff;
+        border: none;
+        cursor: pointer;
+
+    }
+    &__input{
+        right: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 250px;
+        height: 40px;
+        border: 1px solid  #343434;;
+        margin-left: 23px;
+        margin-top: 50px;
+        margin-right: 63px;
+
+        &__input{
+            color: #D1D1D1;
+            margin-left: 12px;
+            border: none;
+            height: 100%;
+        }
+    }
+
+    &__btn-one {
+        display: none;
+        border: none;
+        background-color: #ffffff;
+    }
+
+
+    @media only screen and (max-width:376px) {
+        &__container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            align-items: center;
+            margin-top: 60px;
+        }
+        &__top{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            
+            &__img{
+                margin-right: 10px;
+            }
+    
+            &__select {
+                border: none;
+            }
+    
+            &__btns {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                &__none{
+                    display: flex;
+                    z-index: 1000;
+                }
+                &__two{
+                    display: none   ;
+                }
+            }
+    
+        }
+        &__btn {
+            background-color: #ffffff;
+            border: none;
+            cursor: pointer;
+    
+        }
+        &__input{
+            right: 0;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            width: 250px;
+            height: 40px;
+            border: 1px solid  #343434;;
+            margin-left: 43px;
+            &__input{
+                color: #D1D1D1;
+                margin-left: 12px;
+                border: none;
+                height: 100%;
+            }
+        }
+    }
+
+    &__btn-one {
+        border: none;
+        background-color: #ffffff;
+    }
+}

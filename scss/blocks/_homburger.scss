@@ -1,0 +1,50 @@
+.homburger {
+    position: absolute;
+    right: 0;
+    top:100px;     
+    width: 70%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__child{
+        position: absolute;
+        right: 0;
+        width: 268px;
+        height: 796px;
+        padding-top: 28px;
+        padding-right: 31px;
+        padding-left: 20px;
+        background-color: #ffffff;
+        z-index: 100;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        z-index: 10;
+        color: black;
+    }
+
+    &__link {
+        color: #323232;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 185.5%;
+        &:hover {
+            color: #FF9619;
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        right: 31px;
+        top: 35px;
+        background-color: #ffffff;
+        border: none;
+    }
+}

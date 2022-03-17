@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container homburger" id="myLinks">
+      <div class="homburger__child">
+        <ul class="homburger__list">
+          <li class="homburger__item">
+            <a class="homburger__link" href="./main.html">Каталог</a>
+          </li>
+          <li class="homburger__item">
+            <a class="homburger__link" href="./main.html">Индивидуальная мебель</a>
+          </li>
+          <li class="homburger__item">
+            <a class="homburger__link" href="./main.html">Контакты</a>
+          </li>
+          <li class="homburger__item">
+            <a class="homburger__link" href="./main.html">О компании</a>
+          </li>
+        </ul>
+        <button class="homburger__btn" onclick="myFunction()">
+          <img class="homburger__btn-img" src="./img/x.png" width="16" height="15" alt="bu yerda close rasmi bor">
+        </button>
+      </div>
+    </div>
+    <!--homburger end-->
+    <div class="container header__container">
+      <ul class="header__list-left">
+        <li class="header__item">
+          <a class="header__link" href="./main.html">Каталог</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="./main.html">Индивидуальная мебель</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="./main.html">Контакты</a>
+        </li>
+      </ul>
+      <a href="#" class="header__logo__link">
+        <img class="header__logo" src="./img/header.logo.png" width="216" height="66"
+          alt="bu yerda header logo rasmi bor">
+      </a>
+      <ul class="header__list-right">
+        <li class="header__item">
+          <a class="header__link" href="./main.html">О компании</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link-tel" href="tel:38 099-638-45-37">+38 (099)-638-45-37</a>
+        </li>
+      </ul>
+      <select class="header__select">
+        <option>Ru</option>
+        <option>Uz</option>
+        <option>En</option>
+      </select>
+    </div>
+    <!--header__container-->
+    <div class="nav">
+      <div class="container nav__container">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <img class="nav__img" src="./img/DIVAN.jpg" width="181" height="122" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">Диваны</a>
+          </li>
+          <li class="nav__item">
+            <img class="nav__img" src="./img/stul.jpg" width="159" height="144" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">Стулья </a>
+          </li>
+          <li class="nav__item">
+            <img class="nav__img" src="./img/kreslo.jpg" width="150" height="144" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">Кресла </a>
+          </li>
+          <li class="nav__item">
+            <img class="nav__img" src="./img/spalni.jpg" width="163" height="122" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">Кровати</a>
+          </li>
+          <li class="nav__item">
+            <img class="nav__img" src="./img/matras.jpg" width="144" height="115" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">Матрацы</a>
+          </li>
+          <li class="nav__item">
+            <img class="nav__img" src="./img/puf.jpg" width="217" height="136" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">пуфы</a>
+          </li>
+          <li class="nav__item">
+            <img class="nav__img" src="./img/skameka.jpg" width="156" height="127" alt="bu yerda mebel rasmi bor">
+            <a class="nav__link" href="./main.html">Эксклюзивная мебель </a>
+          </li>
+        </ul>
+      </div>
+      <!--nav__container-->
+    </div>
+    <!--nav end-->
+
+    <div class="mobile container">
+      <a class="mobile-link" href="./main.html">
+        <img class="mobile__logo" src="./img/header.logo.png" width="111" height="34"
+          alt="bu yerda mobile logo rasmi bor">
+      </a>
+      <select class="header__select">
+        <option>Ru</option>
+        <option>Uz</option>
+        <option>En</option>
+      </select>
+      <a href="tel:38 099-638-45-37" class="__mobile-link">
+        <img class="mobile-icon" src="./img/phone.mobile.png" width="21" height="21"
+          alt="bu yerda phone icon rasmi bor">
+      </a>
+      <button class="mobile__btn" onclick="myFunction()">
+        <img class="mobile__btn__img" src="./img/homburger.png" width="25" height="23"
+          alt="bu yerda homburger rasmi bor">
+      </button>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container main__container">
+      <div class="main__top">
+        <select class="header__select">
+          <option>Все 2D-3D модели</option>
+          <option>UДиваны</option>
+          <option>Стулья </option>
+          <option>Кресла </option>
+          <option>Кровати </option>
+          <option>Матрацы </option>
+        </select>
+
+        <div class="main__top__btns">
+          <img class="main__top__btns__none" src="./img/uchtalik.png" width="45" height="10"
+            alt="bu yerda btn rasmi bor">
+          <img class="main__top__btns__two" src="./img/tortlar.png" width="55" height="26" alt="bu yerda btn rasmi bor">
+          <img class="main__top__btns__two" src="./img/tortlar2.png" width="55" height="26"
+            alt="bu yerda btn rasmi bor">
+        </div>
+      </div>
+      <div class="main__input">
+        <input class="main__input__input" type="text" placeholder="Поиск">
+        <img src="./img/loopa.png" alt="bu yerda search rasmi bor">
+
+      </div>
+    </div>
+  </section>
+  <!--main end-->
+  <section class="mebel">
+    <div class="container mebel__container">
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Martin</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel3.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Alba</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel2.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Toscana</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel1.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Leonardo</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel4.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Boorbon</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel5.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Emilio</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel16.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Nensi</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel7.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Tatami</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel8.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Regina</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel16.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Malta</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel15.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Regina</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel14.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Exclusive 1</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel13.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Floret</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel12.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Exclusive bed 2</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel11.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <div class="mebel__first">
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Arni</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel10.png" alt="bu yerda mebel rasmi bor">
+        </a>
+        <a class="mebel__link" href="./main.html">
+          <div class="mebel__right">
+            <h4 class="mebel__head">Taiti</h4>
+            <p class="mebel__text">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение
+              Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+          </div>
+          <img class="mebel__img" src="./img/mebel9.png" alt="bu yerda mebel rasmi bor">
+        </a>
+      </div>
+      <!--mebel__first end-->
+      <button class="mebel__btn">
+        <img class="mebel__btn-img" src="./img/123.png" width="102" height="27" alt="bu yerda button rasmi bor">
+      </button>
+      <button class="mebel__btn-text">смотреть все</button>
+    </div>
+    <!--mebel__container end-->
+  </section>
+  <!--mebel end-->
+  <section class="form">
+    <div class="container form__container">
+      <img class="form__round" src="./img/О.png" width="118" height="131" alt="bu yerda dumoloq rasmi bor">
+      <img class="form__img" src="./img/room.png" width="670" height="478" alt="bu yerda xona rasmi bor">
+      <div class="form__right">
+        <form class="form__form" action="https://echo.htmlacademy.ru">
+          <p class="form__text">Заполните форму</p>
+          <h3 class="form__head">остались вопросы?</h3>
+          <label class="form__label" for="">
+            <input class="form__input" type="text" placeholder="Ваше имя*">
+          </label>
+          <div class="form__border"></div>
+          <label class="form__label" for="">
+            <input class="form__input" type="tel" placeholder="Ваш номер телефона" />
+          </label>
+          <div class="form__border"></div>
+          <label class="form__label" for="">
+            <input class="form__input" type="text" placeholder="Страна">
+          </label>
+          <div class="form__border"></div>
+          <label class="form__label" for="">
+            <input class="form__input" type="text" placeholder="Комментарий">
+          </label>
+          <div class="form__border"></div>
+          <label class="form__label" for="">
+            <input class="form__input-check" type="checkbox" placeholder="Комментарий">
+            <p class="form__text__chek">Подтверждая заказ, я принимаю условия пользовательского соглашения</p>
+          </label>
+          <button class="form__btn" type="send">запросить звонок</button>
+        </form>
+        <!--form end-->
+      </div>
+      <!--form__right end-->
+    </div>
+    <!--form__container-->
+  </section>
+  
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__dad">
+        <div class="footer__bottom">
+          <a class="footer__link-logo" href="./main.html">
+            <img class="footer__logo" src="./img/white.logo.svg" width="170" height="56"
+              alt="bu yerda footer logo rasmi bor">
+          </a>
+        </div>
+        <!--footer__bootom-->
+        <div class="footer__center">
+          <div class="footer__dad__two">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Каталог</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">о компании</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Индивидуальная мебель</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Партнерам дизайнерам</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">2D, 3D модели</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Шоу-румы</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Дилерам</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Контакты</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="./main.html">Конфигуратор</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <div class="footer__right__bacha">
+              <div class="footer__icons">
+                <a class="footer__icon" href="./main.html">
+                  <img class="footer__icon__img" src="./img/instagram.svg" width="27" height="27"
+                    alt="bu yerda instagram rasmi bor">
+                </a>
+                <a class="footer__icon" href="./main.html">
+                  <img class="footer__icon__img" src="./img/facebook.svg" width="27" height="27"
+                    alt="bu yerda instagram rasmi bor">
+                </a>
+              </div>
+              <a class="footer__tel" href="tel:38 099-638-45-37">+38 (099)-638-45-37</a>
+            </div>
+            <button class="footer__btn">
+              <p class="footer__text">Персональная консультация</p>
+              <img class="footer__strelka" src="./img/strelka.png" width="14" alt="bu yerda strelka rasmi bor">
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--footer__center-->
+      <span class="footer__dads" href="./main.html">© 1993–2021 Интернет-магазин «EKMI™» — меблі</span>
+    </div>
+    <!--footer__container-->
+  </footer>
+  <!--footer end-->
+</body>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "none") {
+      x.style.display = "flex";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+</html>

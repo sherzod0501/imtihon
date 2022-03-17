@@ -1,0 +1,168 @@
+.pdf {
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 189px;
+        border: 1px solid #FF9619;
+    }
+
+    &__top {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__btn1 {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        border: none;   
+        background-color: #ffffff;
+        margin-left: 52px;
+        padding-top: 50px;
+        padding-bottom: 49px;
+        border-right: 1px solid #FF9619;
+        cursor: pointer;
+    }
+
+    &__btn-text {
+        color: #343434;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: capitalize; 
+    }
+
+    &__btn2 {
+        width: 60%;
+        color: #343434;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        border: none;
+        background-color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 49px;
+        border-right: 1px solid #FF9619;
+        cursor: pointer;
+    }
+
+    &__btn3 {
+        width: 30%;
+        color: #343434;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        border: none;
+        background-color: #ffffff;
+        padding-right: 52px;
+        padding-top: 50px;
+        padding-bottom: 49px;
+        cursor: pointer;
+    }
+
+    &__span {
+        width: 1px;
+        height: 30px;
+        color: #FF9619;
+    }
+}
+
+    @media only screen and (max-width:376px) {
+        .pdf {
+
+            &__container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border: 1px solid #FF9619;
+                margin-top: 112px;
+            }
+        
+            &__top {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &__img{
+                width: 17px;
+                height: 18px;
+            }
+        
+            &__btn1 {
+                width: 45%;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                border: none;   
+                background-color: #ffffff;
+                margin-left: 20px;
+                padding-top: 15px;
+                padding-bottom: 14px;
+                cursor: pointer;
+                border: 1px solid #FF9619;
+            }
+        
+            &__btn-text {
+                width: 147px;
+                color: #343434;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 21px;
+                text-transform: capitalize; 
+            }
+        
+            &__btn2 {
+                width: 60%;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 21px;
+                border: none;
+                background-color: #ffffff;
+                padding: 14px 16px;
+                border: 1px solid #FF9619;
+                cursor: pointer;
+            }
+        
+            &__btn3 {
+                width: 60%;
+                color: #343434;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 21px;
+                border: none;
+                background-color: #ffffff;
+                padding: 13px 23px;
+                border: 1px solid #FF9619;
+                cursor: pointer;
+                margin: top -1px;
+            }
+        
+            &__span {
+                width: 1px;
+                height: 30px;
+                color: #FF9619;
+            }
+        }
+    }
+

@@ -1681,6 +1681,12 @@ body {
   color: #FF9619;
 }
 
+.pdf__span1 {
+  width: 1px;
+  height: 40px;
+  color: #FF9619;
+}
+
 @media only screen and (max-width: 376px) {
   .pdf__container {
     display: -webkit-box;
@@ -1696,7 +1702,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 1px solid #FF9619;
+    border: none;
     margin-top: 112px;
   }
   .pdf__top {
@@ -1772,6 +1778,12 @@ body {
     margin: top -1px;
   }
   .pdf__span {
+    width: 1px;
+    height: 30px;
+    color: #FF9619;
+  }
+  .pdf__span1 {
+    display: none;
     width: 1px;
     height: 30px;
     color: #FF9619;
@@ -1903,12 +1915,13 @@ body {
     gap: 15px;
   }
   .service__btn {
+    width: 340px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 127.5%;
-    padding: 19px 171px;
+    padding: 19px 15px;
     color: #343434;
     background-color: #F2F3F5;
     border: 1px solid rgba(52, 52, 52, 0.2);
@@ -2016,8 +2029,8 @@ body {
 
 .alba__img {
   background-color: #F2F3F5;
-  padding-top: 42px;
-  padding-bottom: 60px;
+  width: 250px;
+  height: 200px;
 }
 
 .alba__text {
@@ -2058,8 +2071,8 @@ body {
   }
   .alba__img {
     background-color: #F2F3F5;
-    padding-top: 42px;
-    padding-bottom: 60px;
+    width: 200px;
+    height: 150px;
   }
   .alba__text {
     text-align: center;

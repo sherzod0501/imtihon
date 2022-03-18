@@ -76,6 +76,12 @@
         height: 30px;
         color: #FF9619;
     }
+
+    &__span1 {
+        width: 1px;
+        height: 40px;
+        color: #FF9619;
+    }
 }
 
     @media only screen and (max-width:376px) {
@@ -86,7 +92,7 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                border: 1px solid #FF9619;
+                border: none;
                 margin-top: 112px;
             }
         
@@ -159,6 +165,12 @@
             }
         
             &__span {
+                width: 1px;
+                height: 30px;
+                color: #FF9619;
+            }
+            &__span1 {
+                display: none;
                 width: 1px;
                 height: 30px;
                 color: #FF9619;
